@@ -7,6 +7,8 @@ class Osxvpncli < Formula
 
   def install
     system "mv vpn osxvpncli"
+    system "mv bash_completion.d/vpn bash_completion.d/osxvpncli"
+    bash_completion.install Dir["bash_completion.d/osxvpncli"]
     bin.install 'osxvpncli'
   end
 
