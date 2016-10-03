@@ -5,6 +5,6 @@ The Homebrew formula to install [osxvpncli](https://github.com/jonhiggs/osxvpncl
 ## Usage
 
 ```ShellSession
-    $ brew tap jhiggs/homebrew-osxvpncli
+    $ brew tap jonhiggs/homebrew-osxvpncli
     $ brew install osxvpncli
 ```
